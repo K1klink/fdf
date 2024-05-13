@@ -1,0 +1,49 @@
+@media (max-width:768px) {
+
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 0px 30px;
+    }
+
+    .hero {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .hero_content {
+        flex-grow: 1;
+        flex-direction: column;
+        padding: 60px 56px 0px 56px;
+        min-width: 570px;
+        margin: 0 auto;
+    }
+
+    .hero_btn {
+        text-align: center;
+    }
+
+    .hero_desc {
+        margin-bottom: 100%;
+    }
+
+    .hero_btn-wrap {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width 768px) {
+    .help_container {
+        max-width: 630px;
+    }
+
+    .help_list {
+        gap: 55px 60px;
+
+    }
+
+    .help_item {
+        flex: 0 0 170px;
+    }
+}
